@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nocturnal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- Local Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="assets/meicon.png">
+  </head>
+
+<body class="nocturnal-body">
+  <nav class="navbar navbar-expand-md px-3">
+    <h2><a class="navbar-brand" href="index.html">
+    Isabelle Ponts
+    </a></h2>
+
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#mainNav"
+    aria-controls="mainNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item">
+        <a class="nav-link d-none" href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="assets/resume.pdf" target="_blank">Resume</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="mailto:isabellesponts@gmail.com">Email</a>
+        </li>
+    </ul>
+    </div>
+
+</nav>
+
+<div class="container py-4">
+  <button class="btn btn-link back-btn" onclick="history.back()">
+  ← Back
+</button>
+  <div class="row p-2">
+    <div class="col-12 text-center">
+      <h2>Nocturnal</h2>
+      <p>If night lasted forever, how would we adapt.</p>
+    </div>
+
+    <dl class="row gy-4 my-2">
+    <dt class="col-sm-3">Course&#58;</dt>
+    <dd class="col-sm-9">VIS 147B Electronic Technologies for Art II</dd>
+
+    <dt class="col-sm-3">Prompt&#58;</dt>
+    <dd class="col-sm-9">
+        <p>Create something within the theme of "alternative" or "another way", and incorporate microelectronics.</p>
+    </dd>
+    <dt class="col-sm-3">Overview&#58;</dt>
+    <dd class="col-sm-9">
+        <p>Nocturnal stems from the idea of humans actively living at night rather than during the day. I wanted to explore how fashion could evolve within this environment. I intentionally used second-hand clothing, to simulate a new form of at-home alterations that may arise from these circumstances. Constant existence in darkness would increase the necessity for lights, and the potential for them to be incorporated into clothing. Through the LEDs, the jacket can also portray how the wearer is feeling. This acts as a “do not disturb” rendition, with colors and flashes signifying anger, sickness, happiness, and sadness.</p>
+    </dd>
+    </dl>
+
+  <div class="row align-items-center g-4">
+    <div class="col-12">
+      <div class="py-3">
+        <h3>Brainstorming&#58;</h3>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img src="assets/nocturnal/jacketsketch.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-lg-6">
+      <img src="assets/nocturnal/pantsketch.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-md-7">
+      <img src="assets/nocturnal/light-diagram.jpg" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-md-5">
+      <img src="assets/nocturnal/light-pants.jpg" class="img-fluid w-100" alt="">
+    </div>
+    
+    <div class="col-12">
+      <h3>Shirt&#58;</h3>
+    </div>
+    <div class="col-md-12 col-lg-4 order-lg-2">
+    <img src="assets/nocturnal/jacket.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-md-12 col-lg-4 order-lg-1">
+      <img src="assets/nocturnal/jacket-2.png" class="img-fluid w-100" alt="">
+    </div>
+    <div class="col-md-12 col-lg-4 order-lg-3">
+      <img src="assets/nocturnal/jacket-3.jpg" class="img-fluid w-100" alt="">
+    </div>
+     <div class="col-12 col-md-8 offset-md-2 py-4">
+      <div class="p-3 border align-items-center rounded">
+        <p class="text-indent">My original design iterations were naive to the extremely low conductivity of stainless steal thread. My final designs, primarily for the pants, were scaled down greatly in order to improve functionality.</p>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <h3>Pants&#58;</h3>
+    </div>
+    <div class="col-md-12 col-lg-4">
+      <img src="assets/nocturnal/pants-1.png" class="img-fluid w-100" alt="pants close-up">
+    </div>
+    <div class="col-md-12 col-lg-4">
+      <img src="assets/nocturnal/pants-2.png" class="img-fluid w-100" alt="pants lights off">
+    </div>
+    <div class="col-md-12 col-lg-4">
+      <img src="assets/nocturnal/pants-3.png" class="img-fluid w-100" alt="pants lights on">
+    </div>
+
+  <div class="col-12 py-4">
+    <div class="p-4 border rounded">
+      <h4>Materials&#58;</h4>
+      <ul class="materials-list">
+        <li>Arduino Lilypad USB</li>
+        <li>Lilypad LEDs</li>
+        <li>Stainless steel conductive thread</li>
+        <li>Lilypad coin cell battery holder</li>
+        <li>CR2032 batteries</li>
+        <li>necklace clasps</li>
+        <li>Fabric glue</li>
+      </ul>
+    </div>
+  </div>
+
+
+    <div class="col-sm-6 d-none">
+      <img src="assets/nocturnal/noct-broken.jpg" class="img-fluid w-100 p-4" alt="">
+    </div> 
+    <div class="col-sm-6 d-none">
+      <div class="p-3 border rounded">
+        <h4>Troubleshooting</h4>
+        <p>
+            The micro USB port broke just as I finished the jacket, cutting off the main way to power and program the Arduino. Fortunately, the code was already uploaded, so I only needed an alternative power source. I soldered wiring to connect extra coin-cell batteries, allowing it to function. I also wasn't able to source the correct Lilypad switches for the lights, so I improvised by using insulated necklace screw clasps instead.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="text-center py-3">
+      <img src="assets/meicon.png" alt="Logo" style="height: 30px;">
+      <span class="ms-2">Website by Isabelle Ponts</span>
+</footer>
+<!-- Bootstrap 5.3 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

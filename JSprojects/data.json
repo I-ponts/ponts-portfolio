@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "title": "More Javascript",
+      "description": "In this project, I completed a series of exercises to practice using the JavaScript language.",
+      "image_path": "images/project-wk3.png",
+      "date": "Sept 15th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/04/PontsIsabelleS_09_21_01_15/webroot/"
+    },
+    {
+      "id": 2,
+      "title": "Events and Objects",
+      "description": "For this project, I practiced with basic Javascript events and components to create a simple interactive quiz.",
+      "image_path": "images/project-wk4.png",
+      "date": "Sept 15th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/04/PontsIsabelleS_09_21_01_15/webroot/"
+    },
+    {
+      "id": 3,
+      "title": "Shared Libraries",
+      "description": "In this project, I used the jQuery library to create a prototype quiz style game.",
+      "image_path": "images/project-wk5.png",
+      "date": "Sept 22th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/05/PontsIsabelleS_09_24_23_12/webroot/"
+    },
+    {
+      "id": 4,
+      "title": "Enhanced User Interfaces",
+      "description": "In this project, I explored adding draggable and droppable interactions, and various widgets from the JQuery UI library.",
+      "image_path": "images/project-wk6.png",
+      "date": "Sept 29th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/06/PontsIsabelleS_09_29_22_57/webroot/"
+    },
+    {
+      "id": 5,
+      "title": "jQuery Plugin Promotional Site",
+      "description": "This project showcases and promotes the jQuery plugins Typed.js and jQuery Ripples.",
+      "image_path": "images/project-wk7.png",
+      "date": "Oct 6th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/07/PontsIsabelleS_10_06_00_38/webroot/"
+    },
+    {
+      "id": 6,
+      "title": "Class Map",
+      "description": "This project uses the Leaflet Javascript library to create a simple interactive map.",
+      "image_path": "images/project-wk8.png",
+      "date": "Oct 13th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/08/PontsIsabelleS_10_16_23_28/webroot/"
+    },
+    {
+      "id": 7,
+      "title": "Map-Based Mobile App",
+      "description": "This project uses the Leaflet library with an external JSON file to create an interactive map experience, showcasing spooky places around the world.",
+      "image_path": "images/project-wk9.png",
+      "date": "Oct 23rd 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/09/PontsIsabelleS_10_21_00_36/webroot/"
+    },
+    {
+      "id": 8,
+      "title": "Basic Data Visualization",
+      "description": "In this project, I used jQuery and custom JavaScript to visualize data from an external JSON file on an HTML5 canvas.",
+      "image_path": "images/project-wk11.png",
+      "date": "Nov 3rd 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/11/PontsIsabelleS_11_08_17_19/webroot/"
+    },
+    {
+      "id": 9,
+      "title": "Advanced Visualization",
+      "description": "This project uses the D3 library to create a data visualization with SVG elements and external JSON file data.",
+      "image_path": "images/project-wk12.png",
+      "date": "Nov 10th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/12/PontsIsabelleS_11_29_19_41/webroot/"
+    },
+    {
+      "id": 10,
+      "title": "Basic Game",
+      "description": "This project uses Phaser 3 to create a simple platform game.",
+      "image_path": "images/project-wk13.png",
+      "date": "Nov 17th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/13/PontsIsabelleS_11_25_01_26/webroot/"
+    },
+    {
+      "id": 11,
+      "title": "My Game",
+      "description": "This project uses Phaser 3 to create and design a computer-based game.",
+      "image_path": "images/project-wk14.png",
+      "date": "Nov 24th 2025",
+      "online_url": "https://srjcstudentsites.org/2025-fall/cs50c/14/PontsIsabelleS_12_06_00_20/webroot/"
+    }
+]

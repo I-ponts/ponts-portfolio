@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08152a;
+}
+.back-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+
+  background: none;
+  color:#fff8f0;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.back-btn:hover {
+  text-decoration: underline;
+}
+.app-container {
+    margin-top: 8vh;
+    max-width: 80vw;
+}
+.holder {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    border: 2px solid #2358b2;
+    border-radius: 18px;
+    background-color: #fff8f0;
+    color: #0d244d;
+    padding: 10px 5px;
+}
+.holder ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+    left: 0;
+    transition: left 0.3s;
+}
+.holder li {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 10px;
+}
+div.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+.desc {
+    min-height: 60px;
+    overflow: auto;
+    word-wrap: break-word;
+    white-space: normal;
+    padding-top: 1.5rem;
+}
+img {
+    max-width: 100%;
+    pointer-events: none;
+    padding-top: 1.5rem;
+}
+div.date {
+    padding: 1rem;
+    font-size: .7rem;
+}
+a.proj-btn {
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: #0d244d;
+    color: #fff8f0;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 0px #0d244d79;
+}
+p.note {
+    color: #fff8f0;
+    text-align: center;
+}
+button {
+    background-color: #fff8f0;
+    color: #0d244d;
+    font-size: 1.1em;
+    border-radius: 6px;
+    border: transparent;
+    box-shadow: 1px 1px 3px 0px #16151499;
+    margin: 1rem 3.2rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}

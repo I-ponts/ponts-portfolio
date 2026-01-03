@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaScript Explorations</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="JSstyle.css"> 
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="assets/meicon.png">
+</head>
+<body>
+    <div>
+    <button class="back-btn" onclick="history.back()">
+    ← Back
+    </button>
+    </div>
+   <div class="app-container">
+    <div id="myApp">
+        <div class="holder">
+            <ul v-swipeleft="onSwipeLeft" v-swiperight="onSwipeRight">
+                <li v-for="project in projects" :key="project.title">
+                    <div class="title">{{ project.title }}</div>
+                    <div class="desc">{{ project.description }}</div>
+                    <img :src="project.image_path" :alt="project.title">
+                    <div class="date">{{ project.date }}</div>
+                    <p><a :href="project.online_url" target="_blank" class="proj-btn">Visit</a></p>
+                </li>
+            </ul>
+        </div>
+        <p class="note">{{ message1 }}</p>
+    </div>
+        <div>
+            <button id="leftBtn">Left</button>
+            <button id="rightBtn">Right</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
