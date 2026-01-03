@@ -124,7 +124,11 @@ button:hover, .btn-primary:hover {
   padding: 1rem 1rem;
 }
 .navbar .navbar-brand {
-  font-size: 1.1em;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.navbar .nav-link {
+  font-size: 1.1rem;
 }
 .navbar .navbar-brand, .navbar .nav-link {
   color: var(--color-text);
@@ -152,9 +156,15 @@ main.col {
   max-width: 750px; 
   margin: 0 auto;
 }
-
+main p {
+  font-size: 1.05rem;
+}
+aside {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
 aside a {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /*logo*/
