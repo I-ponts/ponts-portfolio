@@ -159,11 +159,11 @@ main.col {
 main p {
   font-size: 1.05rem;
 }
-aside {
+aside li {
   font-size: 1.05rem;
   font-weight: 300;
 }
-aside a {
+aside li a {
   font-weight: 300;
 }
 
