@@ -385,7 +385,7 @@ p.about-text {
 }
 
 .projects-section a.btn-outline:hover {
-  background-color: var(--navy);
+  background-color: #bdd6dc72;
 }
 
 /* grid spacing*/
@@ -414,41 +414,50 @@ p.about-text {
   background-blend-mode: difference, normal;
   background-size: cover;
   color: var(--powder);
+  border: 1px solid #454A38;
 }
 
 .projects-section .project-somnia:hover {
   background: linear-gradient(345deg, rgba(45,30,47,1) 25%, rgba(15,26,45,1) 100%);
   color: var(--powder);
+  border: 1px solid rgb(81, 54, 84);
 }
 
 .projects-section .project-js:hover {
   background: linear-gradient(25deg, rgb(38,8,42) 0%, rgba(9,9,121,1) 58%);
   color: var(--powder);
+  border: 1px solid rgb(14, 14, 197);
 }
 
 .projects-section .project-logo:hover {
   background: linear-gradient(345deg, rgb(0,46,130) 13%, rgb(17,25,113) 75%);
   color: var(--powder);
+  border: 1px solid rgb(40, 94, 169);
 }
 
 .projects-section .project-turtle:hover {
   background: linear-gradient(158deg, rgba(56,48,24,1) 0%, rgba(29,53,21,1) 69%);
   color: var(--powder);
+  border: 1px solid rgb(30, 66, 16);
 }
 
 .projects-section .project-barca:hover {
-  background: radial-gradient(circle, rgba(88,57,102,1) 0%, rgba(108,191,204,1) 85%);
+  background: #753955;
+  background: linear-gradient(59deg, rgba(117, 57, 85, 1) 0%, rgba(80, 139, 145, 1) 50%, rgba(32, 87, 62, 1) 100%);
   color: var(--powder);
+  border: 1px solid rgb(16, 60, 66);
 }
 
 .projects-section .project-nocturnal:hover {
-  background: radial-gradient(circle, rgba(41,41,32,1) 0%, rgba(15,15,26,1) 100%);
+  background: radial-gradient(circle, rgb(52, 52, 40) 0%, rgba(15,15,26,1) 100%);
   color: var(--powder);
+  border: 1px solid rgb(54, 43, 11);
 }
 
 .projects-section .project-flora:hover {
   background: linear-gradient(69deg, rgba(54,65,112,1) 0%, rgba(153,89,6,1) 49%, rgba(138,55,123,1) 86%);
   color: var(--powder);
+  border: 1px solid rgb(90, 59, 123);
 }
 
 
