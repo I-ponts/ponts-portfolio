@@ -481,6 +481,9 @@ body.nocturnal-body footer {
     background-color: var(--navy);
     color: var(--lav)
 }
+.opacity-90 {
+  opacity: 0.9;
+}
 /*materials list*/
 .materials-list {
   columns: 1;
