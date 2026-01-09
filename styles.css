@@ -49,7 +49,7 @@ body {
 }
 button.back-btn{
   text-decoration: none;
-  color: var(--coral);
+  color: var(--navy);
 }
 button.back-btn:hover{
   text-decoration: underline;
@@ -152,6 +152,7 @@ body:not(.index-body):not(.nocturnal-body) .navbar-brand a:hover {
 body:not(.index-body):not(.nocturnal-body) .navbar-toggler {
   background-color: #f47258;
 }
+
 .btn-pill {
   background: var(--coral);
   color: #300;
@@ -278,7 +279,7 @@ p.about-text {
   line-height: 1em;
   letter-spacing: 0.08em;
   text-transform: lowercase;
-  color: #57072F;
+  color: #E82979;
 }
 
 /*PROJECT CARDS — BASE*/
@@ -472,6 +473,9 @@ body.logo-body footer, body.turtle-body footer {
 body.nocturnal-body {
     background-color: var(--navy);
     color: var(--powder)
+}
+body.nocturnal-body button.back-btn{
+  color:var(--coral)
 }
 body.nocturnal-body footer {
     background-color: var(--navy);
