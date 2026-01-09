@@ -486,7 +486,11 @@ body.nocturnal-body footer {
     columns: 2;
   }
 }
-
+/*flora*/
+  img.final-flora {
+  max-height: 95vh;
+  max-width: 65vw;
+}
 /*footer*/
 footer {
   background-color: var(--powder);
