@@ -217,7 +217,7 @@ p.about-text {
 .skills-section {
   background: var(--wine);
   color: var(--powder);
-  border-bottom: 3px solid var(--coral);
+  border-bottom: 2px solid var(--coral);
 }
 .skills-section h2 {
   font-family: "Qahiri", sans-serif;
@@ -276,10 +276,12 @@ p.about-text {
 .banner-track span {
   font-family: "Qahiri", sans-serif;
   font-size: clamp(2.5rem, 8vw, 4rem);
-  line-height: 1em;
+  line-height: 1.3em;
   letter-spacing: 0.08em;
   text-transform: lowercase;
-  color: #E82979;
+  color: var(--lav);
+  opacity: .65;
+  
 }
 
 /*PROJECT CARDS — BASE*/
