@@ -42,6 +42,9 @@
 
 
 /* GLOBAL */
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "IBM Plex Sans Condensed", sans-serif;
   background: var(--powder);
@@ -103,6 +106,26 @@ body.index-body {
   text-align: left;
   text-shadow: 1px 3px 4px #02082c87;;
 }
+.jump-btn {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.jump-btn a {
+  text-decoration: none;
+  color: var(--coral);
+  border: 2px solid coral;
+  border-radius: 8px;
+  padding: 0.5em 3em;
+  font-size: 1.2em;
+  letter-spacing: 0.15em;
+}
+.jump-btn a:hover {
+  background-color: #f4725868;
+  color: var(--wine);
+  font-weight: 500;
+}
 @media (max-width: 576px) {
   .hero-text {
     width: 100%;
@@ -156,16 +179,17 @@ body:not(.index-body):not(.nocturnal-body) .navbar-toggler {
 .btn-pill {
   background: var(--coral);
   color: #300;
-  border-radius: 32px;
+  border-radius: 12px;
   padding: 0.2rem 1rem;
   font-size: clamp(1rem, 1.4vw, 1.3rem);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2em;
   box-shadow: 1px 3px 4px #02082c49;
+  margin-left: 1em;
 }
 .btn-pill:hover {
   border: 2px solid var(--coral);
-  background-color: var(--powder);
+  background-color: #f4725868;
   color: var(--coral);
 }
 .navbar-toggler {
@@ -219,6 +243,11 @@ p.about-text {
   color: var(--powder);
   border-bottom: 2px solid var(--coral);
 }
+.skill-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .skills-section h2 {
   font-family: "Qahiri", sans-serif;
   font-size: 4.5rem;
@@ -285,6 +314,9 @@ p.about-text {
 }
 
 /*PROJECT CARDS — BASE*/
+.project-cards-row {
+  max-width: 1100px;
+}
 
 .projects-section .project-card {
   position: relative;

@@ -34,7 +34,9 @@
 
   <div class="collapse navbar-collapse" id="mainNav">
     <div class="ms-md-auto d-flex flex-column flex-md-row gap-2 mt-3 mt-md-0 ">
-      <a class="btn btn-pill" href="assets/resume.pdf" target="_blank">resume</a>
+      <a class="btn btn-pill" href="assets/resume.pdf" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="link to PDF">resume</a>
       <a class="btn btn-pill d-none" href="about.html">about</a>
       <a class="btn btn-pill" href="mailto:isabellesponts@gmail.com">email</a>
     </div>
@@ -44,6 +46,10 @@
   <div class="hero-content hero-text text-center">
     <h1 class="hero-title">isa<span>belle</span> ponts</h1>
     <p class="hero-subtitle">front-end developer / speculative designer</p>
+  </div>
+
+  <div class="btn jump-btn">
+      <a class="project-jump text-center" href="#projects"> Jump to Projects &#8595;</a>
   </div>
 </section>
 
@@ -70,7 +76,7 @@
 
 <!-- SKILLS -->
 <section class="skills-section py-5">
-  <div class="container">
+  <div class="container skill-content">
     <div class="skills-card mx-auto">
       <h2 class="section-title mb-4">my skills</h2>
 
@@ -115,7 +121,7 @@
 </section>
 
 <!-- PROJECTS GRID -->
-<section class="projects-section">
+<section class="projects-section" id="projects">
    <section class="projects-banner">
     <div class="banner-track">
         <span>projects.</span>
@@ -127,9 +133,12 @@
         <span>projects.</span>
         <span>projects.</span>
         <span>projects.</span>
+        <span>projects.</span>
+        <span>projects.</span>
+        <span>projects.</span>
     </div>
     </section>
-  <div class="container-fluid">
+  <div class="container-fluid project-cards-row">
   <div class="row text-center g-4 pb-4">
     <div class="col-sm-6 col-md-3">
       <div class="project-card project-lowlight">
@@ -224,5 +233,12 @@
 
 <!-- Bootstrap 5.3 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(
+    tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)
+  )
+</script>
 </body>
 </html>
