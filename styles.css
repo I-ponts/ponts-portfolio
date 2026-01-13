@@ -495,7 +495,7 @@ p.about-text {
 
 .projects-section .project-barca:hover {
   background: #753955;
-  background: linear-gradient(59deg, rgba(117, 57, 85, 1) 0%, rgba(80, 139, 145, 1) 50%, rgba(32, 87, 62, 1) 100%);
+  background: linear-gradient(59deg, rgb(90, 26, 42) -20%, rgba(80, 139, 145, 1) 50%, rgb(77, 72, 40) 120%);
   color: var(--powder);
   border: 1px solid rgb(16, 60, 66);
 }
@@ -519,6 +519,62 @@ body.logo-body, body.turtle-body {
 }
 body.logo-body footer, body.turtle-body footer {
   background-color: #fff;
+}
+div.logo-container {
+  max-width: 1000px;
+}
+.logo-container h1 {
+  color: #1F2566;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+.drafts-logo {
+  background: #1F2566;
+  background: linear-gradient(212deg, rgba(20, 24, 70, 1) 0%, rgba(31, 37, 102, 1) 90%);
+  color: #fff;
+  border-radius: 17px;
+}
+.divider {
+  height: 3px;
+  width: 80px;
+  background-color: #fff;
+  margin: 12px auto 30px;
+}
+.draft-row {
+  background-color: #fff;
+  border-radius: 1em;
+}
+img.draft-item {
+  max-height: 25vh;
+}
+.blackbox-logo {
+  background-color: #000;
+  border-radius: 1em;
+}
+.title-block {
+  border: 3px solid #1F2566;
+  border-radius: 1em;
+}
+.title-block img {
+  border-radius: 2em;
+}
+.letter-back {
+  background: #1F2566;
+  background: linear-gradient(212deg, rgba(31, 37, 102, 1) 0%, rgba(20, 24, 70, 1) 90%);
+  border-radius: 1em;
+}
+.letter-back img {
+  box-shadow: -10px 10px 8px #02082C;
+  max-height: 475px;
+}
+.final-15-box {
+  border: 3px solid #1F2566;
+  border-radius: 1em;
+}
+.final-15-box .divider {
+  background-color: #1F2566;
+  width: 100px;
 }
 /*nocturnal*/
 body.nocturnal-body {
