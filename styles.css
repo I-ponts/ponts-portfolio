@@ -61,6 +61,39 @@ button.back-btn:hover{
   text-decoration: underline;
   color: var(--coral);
 }
+#backToTop {
+  position: fixed;
+  bottom: 124px;
+  right: 64px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: var(--coral);
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+  z-index: 1000;
+}
+#backToTop:hover {
+  transform: translateY(-4px);
+  box-shadow: 1px 2px 3px #02082c98;
+}
+#backToTop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 /*homepage*/
 body.index-body {
   background: var(--wine);
@@ -514,11 +547,11 @@ p.about-text {
 
 
 /*logo*/
-body.logo-body, body.turtle-body {
-  background-color: #fff;
+body.logo-body {
+  background-color: #d9e0e1;
 }
-body.logo-body footer, body.turtle-body footer {
-  background-color: #fff;
+body.logo-body footer {
+  background-color: #d9e0e1;
 }
 div.logo-container {
   max-width: 1000px;
@@ -561,7 +594,7 @@ img.draft-item {
   border-radius: 1em;
 }
 .title-block img {
-  border-radius: 1.5em;
+  border-radius: 0.9em;
 }
 .letter-back {
   background: #1F2566;
@@ -574,12 +607,21 @@ img.draft-item {
 }
 .final-15-box {
   border: 3px solid #1F2566;
+  background-color: #fff;
   border-radius: 1em;
 }
 .final-15-box .divider {
   background-color: #1F2566;
   width: 100px;
 }
+/*turtle*/
+body.turtle-body {
+  background-color: #fff;
+}
+div.turtle-container {
+  max-width: 1000px;
+}
+
 /*nocturnal*/
 body.nocturnal-body {
     background-color: var(--navy);
