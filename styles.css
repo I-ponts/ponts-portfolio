@@ -548,6 +548,10 @@ div.logo-container {
 img.draft-item {
   max-height: 25vh;
 }
+.arrow15 {
+  color: #1F2566;
+  font-size: 1.5rem;
+}
 .blackbox-logo {
   background-color: #000;
   border-radius: 1em;
