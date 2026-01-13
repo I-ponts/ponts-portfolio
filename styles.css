@@ -618,9 +618,58 @@ img.draft-item {
 body.turtle-body {
   background-color: #fff;
 }
-div.turtle-container {
-  max-width: 1000px;
+.turtle-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
+.turtle-section {
+  margin: 4rem auto;
+  max-width: 1100px;
+}
+.turtle-section h3 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.turtle-section .divider {
+  height: 3px;
+  width: 35px;
+  background-color: rgba(29, 53, 21, 0.784);
+  margin-bottom: 1rem;
+}
+.turtle-section img {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+}
+.carousel-item img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4%;
+}
+#turtlePhotos .carousel-item img {
+  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  .turtle-section img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .turtle-section img {
+    max-width: 250px;
+  }
+}
+
 
 /*nocturnal*/
 body.nocturnal-body {
