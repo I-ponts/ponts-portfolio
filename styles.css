@@ -4,6 +4,7 @@
   --powder: #BDD6DC;
   --lav: #99A5CD;
   --navy: #02082C;
+  --logo: #1F2566;
 }
 
 /*fonts*/
@@ -557,7 +558,7 @@ div.logo-container {
   max-width: 1000px;
 }
 .logo-container h1 {
-  color: #1F2566;
+  color: var(--logo);
   font-size: 4rem;
   font-weight: 500;
   letter-spacing: .05em;
