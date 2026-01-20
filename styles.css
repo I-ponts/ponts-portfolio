@@ -423,7 +423,8 @@ img.me-drawn {
   border-radius: 16px;
   min-height: 395px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.3), 3px 8px 15px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .project-card::before {
   content: "";
@@ -499,7 +500,7 @@ img.me-drawn {
 
 /* project-turtle */
 .project-card.project-turtle {
-  background-image: url(assets/turtle/tur-2.jpg);
+  background-image: url(assets/turtle/tur-2.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;}
@@ -640,7 +641,9 @@ body.turtle-body {
 #turtlePhotos .carousel-item img {
   max-width: 90%;
 }
-
+.turtle-body footer {
+  background-color: #fff;
+}
 @media (min-width: 768px) {
   .turtle-section img {
     max-width: 300px;
@@ -709,9 +712,7 @@ img.barca-image-final {
     margin-bottom: 3rem;
   }
 }
-body.barca-body footer {
-  background-color: #cee0e0;
-}
+
 /*nocturnal*/
 body.nocturnal-body {
     background-color: var(--navy);
@@ -725,7 +726,8 @@ body.nocturnal-body button.back-btn{
 }
 body.nocturnal-body footer {
     background-color: var(--navy);
-    color: var(--lav)
+    color: var(--lav);
+    box-shadow: inset 0px 3px 10px #020012c0;
 }
 body.nocturnal-body footer a {
   color: var(--coral);
@@ -751,13 +753,25 @@ body.nocturnal-body footer a {
 footer {
   background-color: var(--powder);
   color: var(--wine);
+  box-shadow: inset 0px 3px 10px #bfbfbf94;
+}
+footer .divider {
+  height: 1px;
+  width: 72%;
+  background-color: var(--wine);
+  margin: 12px auto 20px;
 }
 .meicon {
   max-height: 50px;
 }
+footer p {
+  line-height: 70%;
+}
 footer a {
   text-decoration: none;
-  color: #0842b6;
+  color: var(--coral);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 footer a:hover {
   text-decoration: underline;
