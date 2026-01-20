@@ -341,7 +341,7 @@ body:not(.index-body):not(.nocturnal-body) .navbar-toggler {
 .about-card h2 {
   font-family: "Six Caps", sans-serif;
   font-size: 3.2rem;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.15rem;
   margin-bottom: 0.75rem;
 }
 p.about-text {
@@ -380,7 +380,7 @@ img.me-drawn {
 .skills-section h2 {
   font-family: "Six Caps", sans-serif;
   font-size: 3.2rem;
-  letter-spacing: 0.04rem;
+  letter-spacing: .15rem;
   margin-bottom: 0.75rem;
 }
 .skill-card {
@@ -415,7 +415,7 @@ img.me-drawn {
 .projects-container h2 {
   font-family: "Six Caps", sans-serif;
   font-size: 3.2rem;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.15rem;
   margin-bottom: 0.75rem;
 }
 .project-card {
