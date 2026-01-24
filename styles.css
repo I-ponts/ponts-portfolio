@@ -365,48 +365,6 @@ img.me-drawn {
     display: none;
   }
 }
-/* SKILLS */
-.skills-section {
-  background: var(--powder);
-  color: var(--wine);
-  padding: 4rem 1rem;
-  
-}
-.skill-content {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.skills-section h2 {
-  font-family: "Six Caps", sans-serif;
-  font-size: 3.2rem;
-  letter-spacing: .15rem;
-  margin-bottom: 0.75rem;
-}
-.skill-card {
-  max-width: 900px;
-  padding: 2rem;
-  margin: auto;
-}
-
-.skill-card h5 {
-  font-family: "Six Caps", sans-serif;
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
-  color: var(--coral);
-  margin-bottom: 0.75rem;
-}
-
-.skill-card ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.skill-card li {
-  font-size: 1rem;
-  line-height: 1.7em;
-  opacity: 0.85;
-}
 
 /*projects*/
 .projects-container {
