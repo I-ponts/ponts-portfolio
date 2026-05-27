@@ -1,12 +1,19 @@
+/*colors*/
 :root {
   --wine: #2a070e;
   --coral: #F47358;
   --powder: #D9E0E1;
   --lav: #99A5CD;
   --navy: #02082C;
-  --logo: #1F2566;
-}
 
+  --logo: #1F2566;
+
+  --moss: #454A38;
+  --burnt_yellow: #864F04;
+  --slate: #4A4f55;
+  --crimson: #3F0E04;
+  --charcoal: #171614;
+}
 /*fonts*/
 .qahiri-regular {
   font-family: "Qahiri", sans-serif;
@@ -488,13 +495,267 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
   background-repeat: no-repeat;
 }
 
+/*lowlight*/
+.lowlight-body {
+  background-color: #ffff;
+}
+.lowlight-body .navbar {
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 23%, rgba(255, 255, 255, 0) 99%);    
+}
+.lowlight-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--wine);
+  color: white;
+  border: 2px solid var(--wine);
+  padding: 8px 72px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 1px 2px 4px #1209005c;
 
+  transition: transform 0.15s ease;
+}
+
+.lowlight-btn:hover {
+  transform: translateY(-2px);
+}
+.lowlight-sectionA .jump-nav{
+    padding: 1em 2em;
+    color: var(--wine);
+}
+.LL-jump-btn {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+.LL-jump-btn:hover {
+  transform: translateY(-2px);
+}
+a.LL-jump-btn {
+  padding: 8px 12px;
+  background-color: var(--wine);
+  color: white;
+  border-radius: 8px;
+  border: transparent;
+  box-shadow: 1px 2px 4px #0200124c;
+  text-decoration: none;
+}
+a.LL-jump-btn:hover {
+  text-decoration: underline;
+}
+.lowlight-sectionA .jump-dropdown {
+  display: none;
+  margin-bottom: 1rem;
+}
+.ll-early {
+  padding: 100px 20px;
+}
+
+.ll-sub__heading {
+  margin-bottom: 60px;
+}
+
+.ll-early__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.ll-early__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.ll-early__text {
+  max-width: 480px;
+  margin-top: 40px;
+}
+
+.ll-early__text p {
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.ll-early__image img:hover {
+  transform: translateY(4px);
+  transition: 0.2s ease;
+}
+.ll-influences-cont {
+  position: relative;
+
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  background-image: url(assets/lowlight/TGoED.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 80px 20px;
+}
+
+.ll-influences__text {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: var(--powder);
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+}
+
+.ll-polluted {
+  position: relative;
+
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  background: #454A38;
+  background: linear-gradient(90deg, rgba(69, 74, 56, 1) 0%, rgba(134, 79, 4, 1) 25%, rgba(74, 79, 85, 1) 50%, rgba(63, 14, 4, 1) 75%, rgba(23, 22, 20, 1) 100%);
+}
+.ll-polluted h3 {
+  margin: 0 auto;
+  color: var(--powder);
+}
+.ll-moss {
+  color: var(--moss);
+}
+.ll-bYellow {
+  color: var(--burnt_yellow);
+}
+.ll-slate {
+  color: var(--slate);
+}
+.ll-crimson {
+  color: var(--crimson);
+}
+.ll-charcoal {
+  color: var(--charcoal);
+}
+.ll-gradient {
+  position: relative;
+
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  color: var(--powder);
+  background: 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%), 
+    linear-gradient(0deg, rgba(69, 74, 56, 1) 0%, rgba(134, 79, 4, 1) 25%, rgba(74, 79, 85, 1) 50%, rgba(63, 14, 4, 1) 75%, rgba(23, 22, 20, 1) 100%);
+  background-blend-mode: difference;
+}
+.ll-gradient-line {
+  color: var(--powder);
+  background-color: var(--powder);
+  height: 0.3em;
+  opacity: 0.5;
+  border-radius: 0.1em;
+}
+.syne-mono {
+  font-family: "Syne Mono", monospace;
+}
+.ll-para {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ll-illust-box {
+  position: relative;
+
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  background-color: var(--charcoal);
+  color: var(--powder);
+}
+.ll-illust-list {
+  list-style: disc;
+  padding-left: 20px;
+
+  display: inline-block;
+  text-align: left;
+  margin-top: 12px;
+}
+.ll-illust-sur {
+  max-height:40vh;
+  width: auto;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .ll-early__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .ll-early__text {
+    margin-top: 0;
+    max-width: 100%;
+  }
+  .lowlight-sectionA .jump-nav {
+    display: none;
+  }
+
+  .lowlight-sectionA .jump-dropdown {
+    display: block;
+    width: 30vw;
+    margin: 1em auto;
+  }
+
+  .lowlight-sectionA .jump-dropdown select {
+    width: 65vw;
+    text-align: center;
+    padding: 0.75rem 0.55rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--wine);
+    border: 2px solid var(--wine);
+    border-radius: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .ll-illust-list {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .ll-illust-list li {
+    position: relative;
+  }
+
+  .ll-illust-list li:not(:last-child)::after {
+    content: "—";
+    margin-left: 16px;
+    opacity: 0.2;
+  }
+}
+@media (max-width: 992px) {
+  
+}
 /*LOGO*/
 body.logo-body {
-  background-color: #d9e0e1;
+  background-color: var(--powder);
 }
 body.logo-body footer {
-  background-color: #d9e0e1;
+  background-color: var(--powder);
 }
 div.logo-container {
   max-width: 1000px;

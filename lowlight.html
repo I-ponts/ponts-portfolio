@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LowLight</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Qahiri&family=Six+Caps&family=Syne+Mono&display=swap" rel="stylesheet">
+   <!-- Local Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="assets/meicon.png">
+  </head>
+
+<body class="lowlight-body">
+<nav class="navbar navbar-expand-md navbar-dark px-4 sticky-top">
+  <span class="navbar-brand small-name"><a href="index.html">ISABELLE PONTS</a></span>
+
+  <button
+    class="navbar-toggler sticky-top ms-auto"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#mainNav"
+    aria-controls="mainNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNav">
+    <div class="ms-md-auto d-flex flex-column flex-md-row gap-2 mt-3 mt-md-0 ">
+      <a class="btn btn-pill" href="assets/IsabellePonts-Resume.pdf" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"
+        data-bs-custom-class="res-tooltip"
+        data-bs-title="link to PDF">resume</a>
+      <a class="btn btn-pill d-none" href="about.html">about</a>
+      <a class="btn btn-pill" href="mailto:isabellesponts@gmail.com">email</a>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container lowlight-container mt-4">
+  <button class="btn btn-link back-btn" onclick="history.back()">
+  ← Back
+</button>
+<section class="lowlight-sectionA mt-5">
+<header class="text-center py-4">
+    <h1 class="mb-3">LowLight</h1>
+    <p class="h6 mb-3">Web Dev and Design &#183; Speculative Ideation and Storytelling</p>
+  </header> 
+
+  <div class="text-center mt-4 mb-5">
+    <div>
+    <a href="https://dev-lowlight.pantheonsite.io/" target="_blank" rel="noopener noreferrer" class="lowlight-btn">Explore LowLight</a>
+  </div>
+  </div>
+  <dl class="row gy-4 py-4 px-5">
+      <dt class="col-sm-3 h4">Overview&#58;</dt>
+      <dd class="col-sm-9">
+        <p>LowLight is a WordPress site built by revisiting and expanding on a speculative world-building project from my undergraduate work. The goal was to transform an existing concept into a cohesive, interactive website. This involved learning Pantheon hosting, developing in WordPress, and working with the Understrap child theme and SCSS to shape the site's structure, styling, and overall experience.</p>
+      </dd>
+       <dt class="col-sm-3 h4">The LowLight Society&#58;</dt>
+      <dd class="col-sm-9">
+        <p>The project imagines an inverted society shaped by corruption and environmental collapse, where the wealthy live underground while those with fewer resources survive in harsh conditions closer to the surface. LowLight brings this fictional world online, using narrative, visuals, and interaction to explore power, inequality, and life within a fractured system.</p>
+      </dd>
+    </dl>
+
+  <div class="row gx-4 text-center jump-nav mb-3 align-items-center">
+  <div class="col text-start">
+    <h4>Jump to:</h4>
+  </div>
+
+  <div class="col">
+    <a href="#LL-Early" class="LL-jump-btn">Early Concepts</a>
+  </div>
+  <div class="col">
+    <a href="#LL-Influences" class="LL-jump-btn">Influences</a>
+  </div>
+  <div class="col">
+    <a href="#LL-Color" class="LL-jump-btn">Color & Fonts</a>
+  </div>
+  <div class="col">
+    <a href="#LL-Visuals" class="LL-jump-btn">Illustrations</a>
+  </div>
+  </div>
+
+<div class="row jump-dropdown d-none">
+  <div class="col text-start">
+    <h4>Jump to:</h4>
+  </div>
+  <div class="col">
+  <label for="jumpSelect" class="visually-hidden">Jump to section</label>
+  <select id="jumpSelect">
+    <option value="LL-Early">Early Concepts</option>
+    <option value="LL-Influences">Influences</option>
+    <option value="LL-Color">Color & Fonts</option>
+    <option value="LL-Visuals">Illustrations</option>
+  </select>
+  </div>
+</div>
+</section>
+<section id="LL-Early" class="ll-early">
+  <h2 class="text-center h3 ll-sub__heading">
+    Early Concepts &#38; Work
+  </h2>
+
+  <div class="ll-early__grid">
+    <div class="ll-early__image">
+      <img src="assets/lowlight/ll-collage.jpg" alt="collage img">
+    </div>
+
+    <div class="ll-early__text">
+      <p>
+        My original work spanned throughout a quarter, where each week we employed speculative thinking to explore a different aspect of society.
+      </p>
+
+      <p>
+        Looking at the images together, I realized the project lacked the cohesiveness I was aiming for. The ideas were strong, but visually and structurally they felt scattered. This became a turning point that pushed me to rethink how the world could be organized as a website.
+      </p>
+
+      <p>
+        From there, a clearer structure emerged, allowing the project to unfold across focused sections like an overview, infrastructure, governance and social classes, health, ecosystem and environment, fashion and functional aesthetics, and architecture.
+      </p>
+
+      <p>
+        Because of the subject matter, the visual direction leans toward a darker, moodier palette with smoky tones. In contrast, elements representing the lower levels of the world may use brighter color moments to create tension and reinforce the story being told.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="LL-Influences" class="ll-influences">
+  <h2 class="text-center h3 ll-sub__heading">
+    Influences
+  </h2>
+
+  <div class="ll-influences-cont">
+    <div class="ll-influences__text p-5">
+      <p>
+        The Lowlight Society was inspired in part by Ursula K. Le Guin's The Ones Who Walk Away from Omelas and Hieronymus Bosch's The Garden of Earthly Delights—works that explore idealized worlds built alongside hidden suffering. In both, beauty and abundance are immediately visible, while harm is isolated, concealed, or pushed out of view.
+      </p>
+      <p>
+        In Lowlight, I chose to reverse this structure. The most polluted, unstable, and visibly damaged spaces exist closest to the surface, where they are impossible to ignore. These upper levels carry the consequences of environmental collapse and systemic neglect. Meanwhile, the most stable and prosperous environments are buried deep underground—carefully maintained, tightly controlled, and largely inaccessible to most of the population.      
+      </p>
+      <p>
+        By inverting what is shown and what is hidden, Lowlight reframes the ethical tension of its influences. Rather than asking whether a utopia can justify unseen suffering, I wanted to ask what it means when a society hides its ideals and forces its failures to remain in plain sight.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="LL-Color" class="ll-colors py-5">
+  <h2 class="text-center h3 ll-sub__heading">
+    Color Identity &#38; Fonts
+  </h2>
+
+  <div class="ll-colors-cont text-center">
+    <div class="ll-polluted py-5">
+      <h3>
+        Pollution Inspired Palette
+      </h3>
+    </div>
+    <div class="row py-5">
+      <div class="col">
+        <p class="h4 ll-moss">Moss&#58;<br>#454A38</p>
+      </div>
+      <div class="col">
+        <p class="h4 ll-bYellow">Mustard&#58;<br>#454A38</p>
+      </div>
+      <div class="col">
+        <p class="h4 ll-slate">Slate&#58;<br>#454A38</p>
+      </div>
+      <div class="col">
+        <p class="h4 ll-crimson">Crimson&#58;<br>#454A38</p>
+      </div>
+      <div class="col">
+        <p class="h4 ll-charcoal">Charcoal&#58;<br>#454A38</p>
+      </div>
+    </div>
+    <div class="ll-gradient py-5">
+      <h3>
+        Symbolic Gradient
+      </h3>
+      <div class="row align-items-center gx-0 pt-5">
+        <div class="col-2 my-2">
+          <p class="m-0">The Beyond</p>
+        </div>
+        <div class="col-8">
+          <div class="ll-gradient-line my-2 mx-3">
+          </div>
+        </div>
+        <div class="col-2 my-2">
+          <p class="m-0">The Surface</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ll-font py-4">
+      <div class="row flex-row align-items-start">
+        <div class="col-sm px-sm-4">
+            <div class="row align-items-center">
+                  <h4 class="pb-3">Headings&#58;</h4>
+                <div class=" col col-sm-2">
+                  <p>&#60;h1&#62;</p>
+                  <p>&#60;h2&#62;</p>
+                  <p>&#8230;</p>
+                </div>
+                <div class="col col-sm-10">
+                  <p class="display-5">Font&#58;</p>
+                  <p class="display-4 syne-mono">Syne Mono</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm px-sm-4 ms-sm-4 mt-5 mt-sm-auto">
+          <div class="row align-items-center">
+              <h4 class="pb-3">Body&#58;</h4>
+              <div class="col col-sm-3">
+                <p>&#60;p&#62;</p>
+                <p>&#60;a&#62;</p>
+                <p>&#8230;</p>
+              </div>
+              <div class="col col-sm-9">
+                <p class="display-5">Font&#58;</p>
+                <p class="display-4 ll-para">Calibri</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="LL-Visuals" class="ll-visuals py-4">
+  <h2 class="text-center h3 ll-sub__heading">
+    Visuals &#38; Illustrations
+  </h2>
+  <div class="ll-illust-box p-4">
+  <div class="text-center">
+    <h4>Feelings</h4>
+    <ul class="ll-illust-list">
+      <li>Unease</li>
+      <li>Visual Classism</li>
+      <li>Structured Disorder</li>
+      <li>Turmoil to Tranquil</li>
+    </ul>
+  </div>
+  <div class="text-center">
+      <img src="assets/lowlight/ll-surface.png" class="img-fluid ll-illust-sur" alt="illustration of the Lowlight's surface">
+  </div>
+  <div class="text-center px-5">
+    <p>Hand-drawn illustrations were used to make the world feel more narrative and open-ended, leaving room for the viewer to fill in some of the gaps with their own imagination. A lot of the drawings have a blueprint or outline-like feel to them, combining structure with a bit of ambiguity to support the speculative nature of the project.</p>
+  </div>
+</div>
+<div class="ll-logo-isp container pb-4">
+
+  <h2 class="text-center h4 ll-sub__heading my-4">
+    Logo Design &#38; Inspiration
+  </h2>
+
+  <div class="row align-items-center justify-content-center gy-4">
+
+    <div class="col-6 col-sm-4 col-lg-3 text-center">
+      <figure class="mb-0">
+        <img 
+          src="assets/lowlight/ll-bulb-icon.png"
+          class="img-fluid"
+          alt="electric circuit symbol for bulb"
+        >
+
+        <figcaption class="mt-3">
+          <em><small>bulb/light symbol</small></em>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="col-lg-6 col-md-8">
+      <p>
+        I started with a symbol commonly used in engineering and physics to represent light. It felt fitting given the industrial systems and structural focus within Lowlight Society.
+      </p>
+
+      <p class="mb-0">
+        From there, I reworked the form and incorporated a subtle reference to the helmets many upper-level citizens are required to wear.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="row justify-content-center text-center my-5">
+
+    <div class="col-md-8">
+
+      <img 
+        src="assets/lowlight/lowlight-icon-dark.png" class="img-fluid mb-4 ll-vis-logo" style="max-width: 140px;" alt="Lowlight Society logo">
+
+      <p class="mb-0">
+        By repurposing such a familiar symbol to represent the society, the Beyond creates a false sense of significance and superiority around the upper levels.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+</section>
+</div>
+
+<button id="backToTop" aria-label="Back to top">
+   <span>&#10514;</span>
+  </button>
+
+<footer class="text-center py-4">
+      <p>
+      <a href="https://www.linkedin.com/in/isabelle-ponts-17b6b23a3" target="_blank" rel="noopener noreferrer" alt="linkedin link">LinkedIn</a>
+      &#183;
+      <a href="assets/IsabellePonts-Resume.pdf" target="_blank">Resume</a>
+      &#183;
+      <a href="mailto:isabellesponts@gmail.com">Email</a>
+      </p>
+
+      <p class="small text-muted">site in progress &#8211; frequent updates &#58;&#41;</p>
+
+      <img src="assets/meicon.png" alt="my face icon" style="height: 30px;">
+      <span class="ms-2">Website by Isabelle Ponts</span>
+    </div>
+</footer>
+<script src="mainscript.js"></script>
+<script>
+document.getElementById('jumpSelect').addEventListener('change', function () {
+  location.hash = this.value;
+});
+</script>
+<!-- Bootstrap 5.3 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
