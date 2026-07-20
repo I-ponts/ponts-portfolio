@@ -1,12 +1,12 @@
 /*colors*/
 :root {
-  --wine: #2a070e;
-  --coral: #F47358;
-  --powder: #D9E0E1;
-  --lav: #99A5CD;
+  --wine: #26302e;
+  --coral: #d03d01;
+  --powder: #ebe4cf;
+  --lav: #bba149;
   --navy: #02082C;
 
-  --logo: #1F2566;
+  --logo: #20246B;
 
   --moss: #454A38;
   --burnt_yellow: #864F04;
@@ -112,7 +112,7 @@ body.index-body {
 /* HERO */
 .hero {
   min-height: 98vh;
-  background-image: url(assets/jelly.webp);
+  background-image: url(assets/jellyb.webp);
   background-size: cover;
   background-position: center;
   background-repeat: none;
@@ -353,9 +353,6 @@ body:not(.index-body):not(.nocturnal-body) .navbar-toggler {
 }
 p.about-text {
   line-height: 1.8rem;
-}
-img.me-drawn {
-  mix-blend-mode:color-burn;
 }
 .about-img {
   min-width: 65px;
@@ -752,13 +749,13 @@ a.LL-jump-btn:hover {
 }
 /*LOGO*/
 body.logo-body {
-  background-color: var(--powder);
+  background-color: #fff;
 }
 body.logo-body footer {
   background-color: var(--powder);
 }
 div.logo-container {
-  max-width: 1000px;
+  max-width: 1100px;
 }
 .logo-container h1 {
   color: var(--logo);
@@ -766,39 +763,38 @@ div.logo-container {
   font-weight: 500;
   letter-spacing: .05em;
 }
-.drafts-logo {
-  background: #1F2566;
-  background: linear-gradient(212deg, rgba(20, 24, 70, 1) 0%, rgba(31, 37, 102, 1) 90%);
-  color: #fff;
-  border-radius: 17px;
+.logo-container h2 {
+  font-size: 2.5rem;
+}
+.logo-container p {
+  font-size: 1.1rem;
 }
 .divider {
   height: 3px;
   width: 80px;
-  background-color: #fff;
+  background-color: var(--wine);
   margin: 12px auto 30px;
-}
-.draft-row {
-  background-color: #fff;
-  border-radius: 1em;
 }
 img.draft-item {
   max-height: 25vh;
+  mix-blend-mode: darken;
 }
 .arrow15 {
-  color: #1F2566;
+  color: var(--logo);
   font-size: 1.5rem;
 }
 .blackbox-logo {
   background-color: #000;
   border-radius: 1em;
+  max-height: 35vh;
 }
 .title-block {
-  border: 3px solid #1F2566;
   border-radius: 1em;
 }
 .title-block img {
+  border: 3px solid #1F2566;
   border-radius: 0.9em;
+  max-height: 35vh;
 }
 .letter-back {
   background: #1F2566;
@@ -809,14 +805,12 @@ img.draft-item {
   box-shadow: -10px 10px 8px #02082C;
   max-height: 475px;
 }
-.final-15-box {
-  border: 3px solid #1F2566;
-  background-color: #fff;
-  border-radius: 1em;
-}
 .final-15-box .divider {
-  background-color: #1F2566;
+  background-color: var(--logo);
   width: 100px;
+}
+.logo-finals-blend {
+  mix-blend-mode: darken;
 }
 /*turtle*/
 body.turtle-body {
@@ -878,7 +872,7 @@ body.turtle-body {
 
 /*barca*/
 body.barca-body {
-  background-color: #d9e0e1;
+  background-color: #fff;
 }
 .barca-container {
   max-width: 1000px;
@@ -935,18 +929,13 @@ img.barca-image-final {
 
 /*nocturnal*/
 body.nocturnal-body {
-    background-color: var(--navy);
+    background-color: var(--wine);
     color: var(--powder)
-}
-body.nocturnal-body .btn-pill {
-  background-color: var(--navy);
 }
 body.nocturnal-body button.back-btn{
   color:var(--coral)
 }
 body.nocturnal-body footer {
-    background-color: var(--navy);
-    color: var(--lav);
     box-shadow: inset 0px 3px 10px #020012c0;
 }
 body.nocturnal-body footer a {
