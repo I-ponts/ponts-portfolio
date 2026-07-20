@@ -111,7 +111,7 @@ body.index-body {
 }
 /* HERO */
 .hero {
-  min-height: 98vh;
+  min-height: 100vh;
   background-image: url(assets/jellyb.webp);
   background-size: cover;
   background-position: center;
@@ -271,17 +271,16 @@ body:not(.index-body):not(.nocturnal-body) .navbar-toggler {
 }
 
 .btn-pill {
-  background-color: #2a070ecc;
-  color: var(--coral);
-
-  border: 1.5px solid var(--coral);
-  border-radius: 999px;
+  background-color: var(--coral);
+  color: var(--wine);
+  border-radius: 9px;
 
   padding: 0.35rem 1.25rem;
+  font-family: "IBM Plex Sans Condensed", sans-serif;;
   font-size: clamp(1rem, 1.4vw, 1.2rem);
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   
 
   box-shadow:
@@ -299,7 +298,7 @@ body:not(.index-body):not(.nocturnal-body) .navbar-toggler {
 }
 
 .btn-pill:hover {
-  background-color: rgba(244, 114, 88, 0.12);
+  background-color: rgba(208, 61, 1, 0.3);
   border-color: var(--coral);
   color: var(--coral);
   transform: translateY(-1px);
