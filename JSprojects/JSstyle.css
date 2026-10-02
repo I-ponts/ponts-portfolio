@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #08152a;
+    background-color: #26302e;
 }
 .back-btn {
   position: fixed;
@@ -12,7 +12,7 @@ body {
   z-index: 1000;
 
   background: none;
-  color:#fff8f0;
+  color:#ebe4cf;
   border: none;
   font-size: 1rem;
   cursor: pointer;
